@@ -48,7 +48,7 @@ print(italics + red + "- Paper wins against rock\n" + end)
 game_images = [rock, paper, scissors]
 
 #user choice selection
-user_choice = int(input("What do you choose? Type 0 for rock, 1 for paper, and 2 for scissors: "))
+user_choice = int(input("Choose a number? Type 0 for rock, 1 for paper, and 2 for scissors: "))
 
 #invalid number catch
 if user_choice >=3 or user_choice < 0:
